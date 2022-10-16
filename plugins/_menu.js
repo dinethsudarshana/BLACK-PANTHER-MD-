@@ -23,7 +23,7 @@ command(
   },
   async (message,match, { prefix }) => {
     let [date, time] = new Date()
-      .toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })
+      .toLocaleString("en-IN", { timeZone: "Asia/colambo" })
       .split(",");
     let menu = `╭━━━━━ᆫ BLACK PANTHER MDᄀ━━━
 ┃ ⎆  *OWNER* :  DINETH SUDARSHANA
