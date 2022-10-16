@@ -103,7 +103,7 @@ command(
     dontAddCommandList: true,
   },
   async (message, match, { prefix }) => {
-    let menu = `╭───〔 ${tiny("x-asena command list")} 〕────\n`;
+    let menu = `╭───〔 ${tiny("BLACK PANTHER COMMAND LIST")} 〕────\n`;
 
     let cmnd = [];
     let cmd, desc;
