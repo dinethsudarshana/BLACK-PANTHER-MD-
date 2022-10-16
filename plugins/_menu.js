@@ -70,7 +70,8 @@ command(
 
     menu += `\n╰╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼`;
     return await message.client.sendMessage(message.jid, {
-      image: { url: `https://wallpapercave.com/wp/wp3891779.jpg` },
+      image: { url: `https://i.ibb.co/DMnvQ0v/20220912-090038.jpg
+` },
       caption: tiny(menu.toUpperCase()),
       footer: tiny(
         `X-asena Public Bot\nVersion : ${require("../package.json").version}`
