@@ -25,8 +25,8 @@ command(
     let [date, time] = new Date()
       .toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })
       .split(",");
-    let menu = `╭━━━━━ᆫ ${BOT_NAME} ᄀ━━━
-┃ ⎆  *OWNER* :  ${OWNER_NAME}
+    let menu = `╭━━━━━ᆫ BLACK PANTHER MDᄀ━━━
+┃ ⎆  *OWNER* :  DINETH SUDARSHANA
 ┃ ⎆  *PREFIX* : ${prefix}
 ┃ ⎆  *HOST NAME* :${hostname()}
 ┃ ⎆  *DATE* : ${date}
