@@ -1,93 +1,62 @@
 {
-    "name": "BLACK PANTHER-MD",
-    "description": "BOBIZMD  - Makes it easy and fun to use Whatsapp .",
-    "logo": "https://i.ibb.co/DMnvQ0v/20220912-090038.jpg",
-    "keywords": ["whatsapp", "userbot", "bobiz", "bot", "ai" , "MD" ],
-    "repository": "https://github.com/dinethsudarshana/BOBIZ-MD",
-    "website":   "",
-    "success_url": "",
-    "stack": "container",
-     "env": {
-            "BOBIZ_SESSION": {
-            "description": "qr session code",
-            "required": true
-             },
-             
-           
-           "URL_1NAME": {
-            "description": "",
-            "value": "♦WHATSAPP♦" ,
-            "required": true
-      },
-           "URL_1LINK": {
-            "description": "",
-            "value": "http://wa.me/+94769983151" ,
-            "required": true
-      },
-     "URL_2NAME": {
-            "description": "",
-            "value": "♦GITHUB♦" ,
-            "required": true
-      },
-       "URL_2LINK": {
-            "description": "",
-            "value": "https:/https://github.com/dinethsudarshana" ,
-            "required": true
-      },
-      
-      "ALIVE_MESSAGE": {
-            "description": "add text",
-            "value": "defaul", 
-            "required": true
-      },
-      "ALIVE_LOGO": {
-            "description": "add direct image url",
-            "value": "https://i.ibb.co/DMnvQ0v/20220912-090038.jpg" ,
-            "required": true
-      },
-     
-       "SONG_DOWN": {
-            "description": "song downloading text",
-            "value": "*📥Downloading your song...*" ,
-            "required": true
-      }, 
-        "SONG_UP": {
-            "description": "song uploading text",
-            "value": "*📤Uploading your song...*" ,
-            "required": true
-      },
-          "VIDEO_DOWN": {
-            "description": "video downloading text",
-            "value": "*📥جاري تحميل الفيديو...*" ,
-            "required": true
-      },
-          "VIDEO_UP": {
-            "description": "video uploading text",
-            "value": "*📤Uploading your video...*" ,
-            "required": true
-      },
-          "FILE_DOWN": {
-            "description": "file downloading text",
-            "value": "*📥Downloading your file...*" ,
-            "required": true
-      },
-          "FILE_UP": {
-            "description": "file uploading text",
-            "value": "*📤Uploading your file...*" ,
-            "required": true
-      },
-          "STIC_WM": {
-            "description": "sticker pack",
-            "value": "BLACK PANTHER" ,
-            "required": true
-      }
-         
-        
-     },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      }]
+  "name": "x-asena",
+  "description": "X-asena Multi Device whatsappbot",
+  "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+  "keywords": ["whatsapp"],
+  "repository": "https://github.com/Neeraj-x0/x-asena",
+  "website": "https://github.com/Neeraj-x0/x-asena",
+  "success_url": "https://github.com/Neeraj-x0/x-asena",
+  "stack": "container",
+  "env": {
+    "ANTI_LINK": {
+      "description": "true/false",
+      "required": false
+    },
+    "ANTILINK_ACTION": {
+      "description": "kick",
+      "required": false
+    },
+    "RMBG_KEY": {
+      "description": "Remove bg api key ",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Your Session ID",
+      "required": true
+    },
+    "HANDLERS": {
+      "description": "prefix for commands, enter false for no prefix",
+      "required": true,
+      "value": ","
+    },
+    "LOGS": {
+      "description": "need to show message logs ?",
+      "required": false
+    },
+    "PACKNAME": {
+      "description": "Sticker Packname",
+      "required": false
+    },
+
+    "GOODBYE_MSG": {
+      "description": "goodbye Message",
+      "required": false
+    },
+    "AUTHOR": {
+      "description": "Sticker Pack AUTHOR",
+      "required": false
+    },
+    "SUDO": {
+      "description": "sudo numbers with country code seperate with , for multiple numbers",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku app name, same as above entered",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku account api key, https://dashboard.heroku.com/account",
+      "required": true
+    }
   }
+}
